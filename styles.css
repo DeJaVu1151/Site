@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: orange;
+    color: #050d1f;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+    color:blueviolet;
+}
+a:visited{
+    color: #5f9bd1;
+}
+.container{
+    max-width: 750px;
+    margin:auto;
+    padding-top:30px;
+}
+.img{
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px cadetblue;
+}
+.info{
+    margin-bottom:10px;
+    display: flex;
+}
+.info_text{
+    margin-left: 40px;
+}
+@media (max-width:615px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+.info_text p {
+    font-style: italic;
+    font-weight: bold;
+    color:#566138;
+    padding-left: 10px;
+    margin:0;
+}
+.info_text h4{
+    margin-bottom: 10px;
+}
+.card{
+    border-radius: 10px;
+    background: #fff9f7;
+    padding: 15px 20px;
+    margin-bottom:10px;
+}
+.bg_cian{
+    background: #5f9bd1;
+}
+.bg_yellow{
+    background:#f5e5c0;
+}
+.btn{
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border:none;
+    font-family: inherit;
+    cursor: pointer;
+}
+btn:hover{
+    opacity: 1.5;
+}
+.list{
+    padding: 0 20px;
+}
+.list li {
+    color: #913576;
+    margin-bottom: 10px;
+}
+.link{
+    list-style: none;
+}
+table{
+    width: 100%;
+}
+.table td, tr{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.table td:nth-child(2), td:nth-child(3){
+    color:#f1ede8;
+}
+.form h3{
+    text-align: center;
+}
+.form_row{
+    margin-bottom: 10px;
+    display: flex;
+}
+.form_row .form_group{
+/* display: inline-block; */
+margin-right: 20px;
+width: 50%;
+/* width: calc(50%-20px); */
+}
+.form_row.form_group:last-child{
+    margin-right: 0;
+}
+.form_group label{
+display: block;
+font-size: 14px;
+}
+@media (max-width:615px){
+    .form_row{
+        margin-bottom: 10px;
+        display: block;
+    }
+    .form_group input, .form_group textarea{
+        width: 100%;
+       margin-right: 0;
+       margin-bottom: 10px;
+        }
+}
+.form_group input, .form_group textarea{
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-bottom: 1px solid #ccc;
+padding: 15px 0 10px;
+outline: none;
+font-family: inherit;
+}
